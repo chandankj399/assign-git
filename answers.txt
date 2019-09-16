@@ -13,6 +13,7 @@ A. When you merge a feature branch with the master branch, and if the master bra
    There are multiple reasons for having branches
    - When you don't want to mess up your working code of master branch
    - When multiple people are working on multiple features, create branch for each feature. Once it is completed merge with master and continue
+   - Code reviews will become easier since only a chunk of code of feature branch will have to be reviewed.
 
 4. In a project how many remote Git repositories do you usually have?
    Just one git repository for a project
