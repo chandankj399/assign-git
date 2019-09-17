@@ -16,4 +16,4 @@ A. When you merge a feature branch with the master branch, and if the master bra
    - Code reviews will become easier since only a chunk of code of feature branch will have to be reviewed.
 
 4. In a project how many remote Git repositories do you usually have?
-   Just one git repository for a project
+   Just one git repository for a project.
