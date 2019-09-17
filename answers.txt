@@ -3,6 +3,19 @@
 A. gitingnore file consists of lists of extensions which the repository should not contain
    For example, for a java project we do not want .class, .project or .jar and .war files to be included in our repoitory. We would need only .java files mainly for our source control
    In that case, the gitignore file will have .calss, .project, .jar etc as its contents.
+   For IntelliJ, below file extensions can be ignored
+   .idea/modules.xml
+   .idea/*.iml
+   .idea/modules
+   *.iml
+   *.ipr
+
+   For Eclipse, below file extensions can be ignored
+   .settings/
+   .classpath
+   .project
+
+
 
 2. What does fast-forward in Git mean ?
 
@@ -14,6 +27,8 @@ A. When you merge a feature branch with the master branch, and if the master bra
    - When you don't want to mess up your working code of master branch.
    - When multiple people are working on multiple features, create branch for each feature. Once it is completed merge with master and continue.
    - Code reviews will become easier since only a chunk of code of feature branch will have to be reviewed
+   - When there is a issue in the production code, you can create a branch for that particular bug-fix and resolve it and then merge with master branch
 
 4. In a project how many remote Git repositories do you usually have?
    Just one git repository for a project
+   One scenario I can think of is when you want to create read only replica of your project and share it with other people, you can have read-only repo and your main repository can be read-write.
